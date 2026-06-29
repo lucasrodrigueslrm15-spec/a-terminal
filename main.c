@@ -11,7 +11,7 @@ int main() {
         
         int res = system(command);
         printf(res == -1 ? "HOHOHO, your doomed.\n" : "\n");
-    if (strcmp(command, "exit\n") == 0){
+        if (strcmp(command, "exit\n") == 0){
             r=0;
         }
     }
